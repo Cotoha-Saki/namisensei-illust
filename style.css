@@ -40,3 +40,15 @@ img {
 .zunda {
     text-align: center;
 }
+
+.dl-1,.dl-2,.dl-3,.dl-4 {
+    text-align: center;
+    background-color: rgb(103, 199, 255);
+    padding: 20px 25px;
+    border-radius: 8%;
+    margin-bottom: 15px;
+}
+
+.dl-1 a,.dl-2 a,.dl-3 a,.dl-4 a {
+    color: #ffffff;
+}
