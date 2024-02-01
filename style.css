@@ -1,8 +1,18 @@
-img {
+@charset "utf-8";
+
+@font-face {
+	font-family: 'POP';
+	src: url(POP.ttf);
+}
+
+html {
+    font-family: "POP";
+}
+
+.art {
     width: 90%;
     display: block;
-    margin-bottom: 100px;
-    border-radius: 3%;
+    border-radius: 5%;
 }
 
 .imgs {
@@ -13,20 +23,16 @@ img {
     flex-direction: column; /* 列方向に並べる */
     padding-top: 70px;
     background-color: rgb(255, 220, 237);
+    padding-bottom: 100px;
 }
 
 .t1 {
+    color: #ffffff;
+    margin-top: 100px;
     font-size: 25px;
-    margin: 20px 0;
-}
-
-.setumei {
-    text-align: center;
-    display: flex;
-    justify-content: center; /* 主軸方向（横方向）を中央に揃える */
-    flex-direction: column;
-    padding: 0 100px;
-    
+    margin-bottom: 25px;
+    background-color: #ff7698;
+    padding: 15px 20px;
 }
 
 .p1 {
@@ -36,14 +42,44 @@ img {
     border-bottom: 2px black solid;
 }
 
-.s {
-    background-color: rgb(203, 238, 255);
-    padding-bottom: 50px;
-    padding-top: 50px;
+.dld {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    border-bottom: 1px black solid;
+}
+
+.ss {
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 3%;
+    
+}
+
+.syo1,.syo2 {
+    color: rgb(76, 90, 99);
+}
+
+.syo2 {
+    margin-top: 15px;
+}
+
+.syo {
+    color: #ca7272;
+}
+
+.ad {
+    font-size: 15px;
 }
 
 .zunda {
-    display: flex; /* flexboxを使用して要素を横並びにする */
+    display: flex;
+    flex-direction: column; /* 子要素を縦に配置 */
+    align-items: center; /* 子要素を中央に配置 */
     font-weight: bold;
 }
 
@@ -55,16 +91,26 @@ img {
 .zun video, .zun2 video {
     display: flex;
     margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.f {
+    align-items: center;
+    text-align: center;
+    
 }
 
 .zun:last-child, .zun2:last-child {
     margin-right: 0; /* 最後の要素には余白を追加しない */
 }
 
+.t1 {
+    text-align: center;
+} 
 
 .mo {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 
@@ -72,8 +118,8 @@ img {
     text-align: center;
     background-color: rgb(103, 199, 255);
     padding: 20px 25px;
-    border-radius: 8%;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .dl-1 a,.dl-2 a,.dl-3 a,.dl-4 a {
@@ -85,3 +131,36 @@ img {
     font-size: 18px;
     text-align: center;
 }
+
+.imgs, .ss,img {
+    
+    margin: 0 auto; /* 左右の余白を自動で均等にすることで画像を中央に配置 */
+    display: block; /* インライン要素の中央配置を有効にするため */
+}
+
+.suku {
+    margin-top: 25px;
+    width:55%;
+}
+
+.cm1 {
+    background-color: #ffffff;
+    margin-top: 15px;
+    padding: 10px 15px;
+    
+}
+
+
+.cm-1 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.cm-2 {
+    line-height: 25px;
+    color: rgb(114, 114, 114);
+    padding-bottom: 10px;
+}
+
+.cm1 p {}
