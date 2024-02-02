@@ -34,6 +34,7 @@ html {
     margin-bottom: 25px;
     background-color: #ff7698;
     padding: 15px 20px;
+    border-radius: 10px;
 }
 
 .p1 {
@@ -44,10 +45,11 @@ html {
 }
 
 .dld {
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 15px;
     font-size: 22px;
     border-bottom: 1px black solid;
+    padding-bottom: 15px;
 }
 
 .ss {
@@ -197,7 +199,7 @@ html {
     margin-top: 45px;
     padding: 10px 15px;
     border-radius: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .lm {
