@@ -207,6 +207,56 @@ html {
     padding-bottom: 10px;
 }
 
+.sta {
+    background-color: #ffffff;
+    margin-top: 45px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.stm {
+    
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.stm2 {
+    line-height: 25px;
+    color: rgb(114, 114, 114);
+    padding-bottom: 10px;
+}
+
+.lll {
+    background-color: #ffffff;
+    margin-top: 45px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.llll {
+    
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.lllll {
+    font-size: 12px;
+    line-height: 25px;
+    color: rgb(114, 114, 114);
+    padding-bottom: 10px;
+}
+
 .last {
     background-color: #ffffff;
     margin-top: 45px;
